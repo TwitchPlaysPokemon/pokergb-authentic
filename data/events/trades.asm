@@ -1,7 +1,7 @@
 TradeMons:
 	; entries correspond to TRADE_FOR_* constants
 	; give mon, get mon, dialog id, nickname
-IF DEF(_RED) || DEF(_BLUE)
+IF DEF(_RED) || DEF(_GREEN)
 	db NIDORINO,   NIDORINA,  TRADE_DIALOGSET_CASUAL, "TERRY@@@@@@"
 	db ABRA,       MR_MIME,   TRADE_DIALOGSET_CASUAL, "MARCEL@@@@@"
 	db BUTTERFREE, BEEDRILL,  TRADE_DIALOGSET_HAPPY,  "CHIKUCHIKU@"
@@ -13,7 +13,7 @@ IF DEF(_RED) || DEF(_BLUE)
 	db VENONAT,    TANGELA,   TRADE_DIALOGSET_HAPPY,  "CRINKLES@@@"
 	db NIDORAN_M,  NIDORAN_F, TRADE_DIALOGSET_HAPPY,  "SPOT@@@@@@@"
 ENDC
-IF DEF(_GREEN)
+IF DEF(_BLUE)
 	; Names are not official (JP Blue's trade names were never translated)
 	db RHYDON,     KANGASKHAN, TRADE_DIALOGSET_CASUAL, "SPORT@@@@@@"
 	db JIGGLYPUFF, MR_MIME,    TRADE_DIALOGSET_CASUAL, "MILES@@@@@@"

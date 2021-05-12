@@ -12,7 +12,7 @@ IF DEF(_RED)
 	db  4, WEEDLE
 	db  5, WEEDLE
 ENDC
-IF DEF(_GREEN) || DEF(_BLUE)
+IF DEF(_BLUE) || DEF(_GREEN)
 	db  3, RATTATA
 	db  3, PIDGEY
 	db  4, PIDGEY

@@ -1,6 +1,6 @@
 Route13Mons:
 	db 20 ; grass encounter rate
-IF DEF(_RED) || DEF(_GREEN)
+IF DEF(_RED) || DEF(_BLUE)
 	db 24, ODDISH
 	db 25, PIDGEY
 	db 27, PIDGEY
@@ -12,7 +12,7 @@ IF DEF(_RED) || DEF(_GREEN)
 	db 28, GLOOM
 	db 30, GLOOM
 ENDC
-IF DEF(_BLUE)
+IF DEF(_GREEN)
 	db 24, BELLSPROUT
 	db 25, PIDGEY
 	db 27, PIDGEY

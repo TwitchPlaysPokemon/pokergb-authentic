@@ -1,6 +1,6 @@
 Route15Mons:
 	db 15 ; grass encounter rate
-IF DEF(_RED) || DEF(_GREEN)
+IF DEF(_RED) || DEF(_BLUE)
 	db 24, ODDISH
 	db 26, DITTO
 	db 23, PIDGEY
@@ -12,7 +12,7 @@ IF DEF(_RED) || DEF(_GREEN)
 	db 28, PIDGEOTTO
 	db 30, PIDGEOTTO
 ENDC
-IF DEF(_BLUE)
+IF DEF(_GREEN)
 	db 24, BELLSPROUT
 	db 26, DITTO
 	db 23, PIDGEY

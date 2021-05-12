@@ -8,7 +8,7 @@ IF DEF(_RED)
 	db SCYTHER,  25
 	db PORYGON,  26
 ENDC
-IF DEF(_GREEN)   ; Actually JP Blue
+IF DEF(_BLUE)
 	db ABRA,      8
 	db PIKACHU,  12
 	db HORSEA,   18
@@ -17,7 +17,7 @@ IF DEF(_GREEN)   ; Actually JP Blue
 	db DRAGONAIR,30
 	db PORYGON,  22
 ENDC
-IF DEF(_BLUE)    ; Actually JP Green
+IF DEF(_GREEN)
 	db ABRA,      6
 	db CLEFAIRY, 12
 	db NIDORINO, 17

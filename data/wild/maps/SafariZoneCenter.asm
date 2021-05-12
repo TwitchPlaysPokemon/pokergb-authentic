@@ -1,6 +1,6 @@
 ZoneMonsCenter:
 	db 30 ; grass encounter rate
-IF DEF(_RED) || DEF(_GREEN)
+IF DEF(_RED) || DEF(_BLUE)
 	db 22, NIDORAN_M
 	db 25, RHYHORN
 	db 22, VENONAT
@@ -12,7 +12,7 @@ IF DEF(_RED) || DEF(_GREEN)
 	db 23, SCYTHER
 	db 23, CHANSEY
 ENDC
-IF DEF(_BLUE)
+IF DEF(_GREEN)
 	db 22, NIDORAN_F
 	db 25, RHYHORN
 	db 22, VENONAT

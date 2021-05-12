@@ -12,7 +12,7 @@ IF DEF(_RED)
 	db  8, ABRA
 	db 12, ABRA
 ENDC
-IF DEF(_GREEN)
+IF DEF(_BLUE)
 	db  7, CATERPIE
 	db  8, METAPOD
 	db 12, PIDGEY
@@ -24,7 +24,7 @@ IF DEF(_GREEN)
 	db  8, ABRA
 	db 12, ABRA
 ENDC
-IF DEF(_BLUE)
+IF DEF(_GREEN)
 	db  7, CATERPIE
 	db  8, METAPOD
 	db 12, PIDGEY
