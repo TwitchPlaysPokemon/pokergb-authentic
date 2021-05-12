@@ -1,15 +1,17 @@
 # Pokémon Red, Green, and Blue
 
-This is based on Pret's [disassembly][pokered] of the US releases of Pokémon Red and Blue, with an added Green to stand in for JP Blue
+This is based on Pret's [disassembly][pokered] of the US releases of Pokémon Red and Blue.
+The original [project][pokerbg] added a Pokémon Green to stand in for JP Blue.
+This project reworks that Red, Green, and Blue to be true to their Japanese counterparts.
 
 It builds the following games:
 
-- Pokémon Red (English), based on the offical US Pokémon Red that's derived from Japanese Pokémon Red
-- Pokémon Blue (English), based on the official US Pokémon Blue that's derived from Japanese Pokémon Green
-- Pokémon Green (English), derived from Japanese Pokémon Blue
+- Pokémon Red (English), based on the offical US Pokémon Red that's derived from Japanese Pokémon Red, with original graphics and maps restored.
+- Pokémon Green (English), based on the official US Pokémon Blue that's derived from Japanese Pokémon Green, with original graphics and maps restored.
+- Pokémon Blue (English), derived from Japanese Pokémon Blue
 - Pokémon Blue (Debug version)
 
-In addition to adding Pokémon Green, this build also makes the following changes:
+This build also makes the following changes:
 
 - The [Soft Reset](https://bulbapedia.bulbagarden.net/wiki/Soft_resetting) button combination is removed.
 - POKé DOLLS can no longer be used to defeat [Ghost Marowak](https://glitchcity.wiki/Go_past_the_Marowak_ghost_without_a_Silph_Scope).
@@ -48,6 +50,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 - [**Pokémon FireRed**][pokefirered]
 - [**Pokémon Emerald**][pokeemerald]
 
+[pokerbg]: https://github.com/TwitchPlaysPokemon/pokerbg
 [pokered]: https://github.com/pret/pokered
 [pokeyellow]: https://github.com/pret/pokeyellow
 [pokegold]: https://github.com/pret/pokegold
