@@ -35,6 +35,7 @@ ROM0
 	"Home"
 ROMX $1
 	"bank1"
+	"Predefs"
 ROMX $2
 	"Sound Effect Headers 1"
 	"Music Headers 1"
@@ -55,6 +56,7 @@ ROMX $6
 	"Play Time"
 	"Maps 2"
 	"Doors and Ledges"
+	"Slot Machines"
 ROMX $7
 	"Maps 3"
 	"Pokémon Names"
@@ -82,7 +84,6 @@ ROMX $C
 	"Battle Engine 6"
 ROMX $D
 	"Pics 5"
-	"Slot Machines"
 ROMX $E
 	"Battle Engine 7"
 ROMX $F
@@ -101,7 +102,6 @@ ROMX $12
 ROMX $13
 	"Pics 6"
 	"Maps 9"
-	"Predefs"
 ROMX $14
 	"Maps 10"
 	"Battle Engine 8"
