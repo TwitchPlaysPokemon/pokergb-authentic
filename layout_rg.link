@@ -35,7 +35,7 @@ ROM0
 	"Home"
 ROMX $1
 	"bank1"
-	"Predefs"
+	"Battle Engine 3"
 ROMX $2
 	"Sound Effect Headers 1"
 	"Music Headers 1"
@@ -44,6 +44,8 @@ ROMX $2
 	"Music 1"
 ROMX $3
 	"bank3"
+	"Predefs"
+	"Battle Engine 6"
 ROMX $4
 	"NPC Sprites 1"
 	"Font Graphics"
@@ -72,7 +74,6 @@ ROMX $8
 	"Music 2"
 ROMX $9
 	"Pics 1"
-	"Battle Engine 3"
 ROMX $A
 	"Pics 2"
 	"Battle Engine 4"
@@ -81,7 +82,6 @@ ROMX $B
 	"Battle Engine 5"
 ROMX $C
 	"Pics 4"
-	"Battle Engine 6"
 ROMX $D
 	"Pics 5"
 ROMX $E
